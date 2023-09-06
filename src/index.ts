@@ -26,7 +26,7 @@ async function main() {
     app.get("/amocrm-code", amocrmCode);
 
     // Route that receives name, email and phone
-    // Example request: https://obliging-raccoon-positively.ngrok-free.app/lead?name=example?email=example@gmail.com?phone=87279067635
+    // Example request: https://obliging-raccoon-positively.ngrok-free.app/lead?name=examplename&email=example@gmail.com&phone=87279067635
     app.get("/lead", lead);
 
     app.listen(PORT, () => {
